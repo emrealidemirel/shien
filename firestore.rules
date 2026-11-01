@@ -1,0 +1,61 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedOwner(uid) {
+      return request.auth != null && request.auth.uid == uid
+        && request.auth.token.firebase.sign_in_provider in ['password', 'google.com', 'apple.com'];
+    }
+    function owner(uid) {
+      return signedOwner(uid) && (!exists(/databases/$(database)/documents/users/$(uid))
+        || get(/databases/$(database)/documents/users/$(uid)).data.deleted != true);
+    }
+    match /users/{uid} {
+      allow read: if signedOwner(uid);
+      allow create, update: if signedOwner(uid)
+        && request.resource.data.keys().hasOnly(['deleted', 'updatedAt'])
+        && request.resource.data.deleted == true
+        && request.resource.data.updatedAt == request.time;
+      allow delete: if signedOwner(uid);
+    }
+    function envelope() {
+      return request.resource.data.keys().hasOnly(['data', 'mutationId', 'updatedAt'])
+        && request.resource.data.mutationId is string
+        && request.resource.data.mutationId.size() <= 100
+        && request.resource.data.updatedAt == request.time;
+    }
+    function record() {
+      return request.resource.data.data is map
+        && request.resource.data.data.id is string
+        && request.resource.data.data.id.size() > 0
+        && request.resource.data.data.id.size() <= 200
+        && request.resource.data.data.title is string
+        && request.resource.data.data.title.size() <= 200;
+    }
+    match /users/{uid}/reminders/{id} {
+      allow read, delete: if signedOwner(uid);
+      allow create, update: if owner(uid) && envelope()
+        && (request.resource.data.data == null || (record()
+          && request.resource.data.data.keys().hasOnly(['schemaVersion', 'id', 'title', 'note', 'anchorAt', 'dueAt', 'createdAt', 'category', 'repeat', 'weekdays', 'interval', 'lastDayOfMonth', 'additionalTimes', 'leadMinutes', 'isPriority', 'tags', 'sound', 'isPaused', 'isCompleted', 'snoozedUntil'])
+          && request.resource.data.data.note is string
+          && request.resource.data.data.note.size() <= 10000));
+    }
+    match /users/{uid}/completions/{id} {
+      allow read, delete: if signedOwner(uid);
+      allow create, update: if owner(uid) && envelope()
+        && (request.resource.data.data == null || (record()
+          && request.resource.data.data.keys().hasOnly(['id', 'reminderId', 'title', 'category', 'scheduledAt', 'completedAt'])));
+    }
+    match /users/{uid}/profile/main {
+      allow read, delete: if signedOwner(uid);
+      allow create, update: if owner(uid)
+        && request.resource.data.keys().hasOnly(['displayName', 'photoBase64', 'photoHidden', 'updatedAt'])
+        && request.resource.data.displayName is string
+        && request.resource.data.displayName.size() > 0
+        && request.resource.data.displayName.size() <= 100
+        && request.resource.data.updatedAt == request.time
+        && (!('photoBase64' in request.resource.data) || request.resource.data.photoBase64 == null
+          || (request.resource.data.photoBase64 is string && request.resource.data.photoBase64.size() <= 174764))
+        && (!('photoHidden' in request.resource.data) || request.resource.data.photoHidden is bool);
+    }
+  }
+}

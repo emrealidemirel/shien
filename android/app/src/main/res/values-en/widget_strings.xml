@@ -1,0 +1,4 @@
+<resources>
+    <string name="reminder_widget_description">View upcoming reminders, complete them and add new ones.</string>
+    <string name="reminder_widget_name">Shien · Your plans</string>
+</resources>

@@ -1,0 +1,6 @@
+# Copy to android/key.properties and set your own values.
+# Keep key.properties and the keystore out of version control.
+storeFile=/absolute/path/to/shien-upload.jks
+storePassword=REPLACE_LOCALLY
+keyAlias=shien-upload
+keyPassword=REPLACE_LOCALLY

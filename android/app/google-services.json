@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "92765298655",
+    "project_id": "shien-reminders",
+    "storage_bucket": "shien-reminders.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92765298655:android:1853a878e775b0241f2e6a",
+        "android_client_info": {
+          "package_name": "com.example.medicine_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92765298655-7k1e9k6hsru3fo4kgkduh0omgsharmei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicine_app",
+            "certificate_hash": "b22cb6406b8030f05d40de8c093bc56c043e9c32"
+          }
+        },
+        {
+          "client_id": "92765298655-6vaa73af3m4jelae86cj7u8p41ok5986.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXPOtz0AO-Cxl8r3Va3gjs_93GkKtvBos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92765298655-6vaa73af3m4jelae86cj7u8p41ok5986.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "92765298655-b05jqp7r7qsine8750ulmnh1f0mcgsjs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.medicineApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

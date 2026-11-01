@@ -1,0 +1,56 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "shien-reminders",
+          "appId": "1:92765298655:android:1853a878e775b0241f2e6a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "targets": {
+          "Runner": {
+            "projectId": "shien-reminders",
+            "appId": "1:92765298655:ios:92c49efa331f8d7e1f2e6a",
+            "uploadDebugSymbols": false,
+            "fileOutput": "ios/Runner/GoogleService-Info.plist"
+          }
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "shien-reminders",
+          "configurations": {
+            "android": "1:92765298655:android:1853a878e775b0241f2e6a",
+            "ios": "1:92765298655:ios:92c49efa331f8d7e1f2e6a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "release_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "README.md"
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          }
+        ]
+      }
+    ]
+  }
+}

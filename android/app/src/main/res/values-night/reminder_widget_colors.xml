@@ -1,0 +1,6 @@
+<resources>
+    <color name="reminder_widget_title">#F1F3EE</color>
+    <color name="reminder_widget_secondary">#B7BDB5</color>
+    <color name="reminder_widget_accent">#F19A7D</color>
+    <color name="reminder_widget_done">#9AD5AE</color>
+</resources>
