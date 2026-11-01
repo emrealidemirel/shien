@@ -1,50 +1,52 @@
 # Shien
 
-Shien, günlük işlerini ve düzenli hatırlatmalarını tek yerde planlamanı sağlayan bir Android ve iOS uygulamasıdır. Günün programını görüntüleyebilir, yaklaşan hatırlatmalarını takip edebilir ve tamamladığın işleri geçmişte görebilirsin.
+**English** · [Türkçe](README.tr.md)
 
-## Özellikler
+Shien is a reminder app for Android and iOS that brings daily tasks and recurring reminders together. View your schedule, keep track of upcoming reminders, and review completed tasks in one place.
 
-- **Esnek planlama:** Tek seferlik veya tekrarlayan hatırlatmalar; birden fazla saat, ön uyarı ve erteleme seçenekleri.
-- **Düzenli görünüm:** Bugün, Plan, Listeler ve Bitenler ekranları; kategori, etiket, önem ve arama filtreleri.
-- **Hızlı ekleme:** Türkçe ve İngilizce tarih-saat ifadelerinden planlama önerileri.
-- **Bildirimler ve widget:** Ses seçimi, bildirimden tamamlama veya erteleme ve ana ekran bileşenleri.
-- **Hesaba bağlı senkronizasyon:** Google veya e-posta hesabıyla hatırlatmaların ve profil bilgilerinin bulutta saklanması.
-- **Misafir kullanımı:** Hesap açmadan, hatırlatmaları cihazda saklayarak kullanım.
-- **Yedekleme:** JSON biçiminde dışa aktarma ve mevcut kayıtların üzerine yazmadan içe aktarma.
-- **Kişiselleştirme:** Türkçe ve İngilizce dil desteği; açık, koyu ve sistem teması.
+## Features
 
-## Ekran görüntüleri
+- **Flexible scheduling:** One-time and recurring reminders with multiple times, advance alerts, and snooze options.
+- **Organized views:** Today, Plan, Lists, and Completed screens, with categories, tags, priority, and search filters.
+- **Quick entry:** Scheduling suggestions based on Turkish and English date and time expressions.
+- **Notifications and widgets:** Sound selection, complete or snooze actions from notifications, and home screen widgets.
+- **Account sync:** Cloud storage for reminders and profile information when signed in with Google or email.
+- **Guest mode:** Use the app without an account and keep reminders on your device.
+- **Backups:** Export to JSON and import without overwriting existing reminders.
+- **Personalization:** Turkish and English support, with light, dark, and system themes.
 
-Örnek kayıtlarla hazırlanmış uygulama ekranları:
+## Screenshots
 
-<img src="docs/store/screenshots/ios-tr-today.png" width="250" alt="Shien Bugün ekranı"> <img src="docs/store/screenshots/ios-tr-plan.png" width="250" alt="Shien Plan ekranı"> <img src="docs/store/screenshots/ios-tr-lists.png" width="250" alt="Shien Listeler ekranı">
+App screens with sample reminders:
 
-## Veriler ve gizlilik
+<img src="docs/store/screenshots/ios-tr-today.png" width="250" alt="Shien Today screen"> <img src="docs/store/screenshots/ios-tr-plan.png" width="250" alt="Shien Plan screen"> <img src="docs/store/screenshots/ios-tr-lists.png" width="250" alt="Shien Lists screen">
 
-Misafir hatırlatmaları cihazda tutulur ve otomatik olarak buluta aktarılmaz. Google veya e-posta hesabıyla giriş yapıldığında hesaba özel bulut senkronizasyonu kullanılır. Misafir kayıtları isteğe bağlı olarak hesaba aktarılabilir. Uygulama reklam veya kullanım analitiği içermez.
+## Data and privacy
 
-Bildirimler cihaz üzerinde zamanlanır. Teslim zamanı ve ses; bildirim izinleri, pil tasarrufu, sessiz mod ve odak ayarlarından etkilenebilir. Misafir kayıtları ve henüz eşitlenmemiş değişiklikler uygulama kaldırıldığında kaybolabilir.
+Guest reminders stay on your device and are not automatically uploaded. Signing in with Google or email enables account-specific cloud sync. You can choose to import guest reminders into your account. The app contains no ads or usage analytics.
 
-[Gizlilik politikası](docs/PRIVACY_POLICY.md) · [Hesap silme](docs/ACCOUNT_DELETION.md)
+Notifications are scheduled on your device. Delivery time and sound can be affected by notification permissions, battery saving, silent mode, and focus settings. Uninstalling the app may remove guest reminders and changes that have not yet synced.
 
-## Geliştirme
+[Privacy policy](docs/PRIVACY_POLICY.md) · [Account deletion](docs/ACCOUNT_DELETION.md)
 
-Uygulama Flutter ile geliştirilmiştir. Durum yönetiminde Cubit, yerel depolamada Hive, kimlik doğrulama ve bulut senkronizasyonunda Firebase kullanılır. Çeviriler `easy_localization` ile yönetilir.
+## Development
+
+Shien is built with Flutter. It uses Cubit for state management, Hive for local storage, and Firebase for authentication and cloud sync. Translations are managed with `easy_localization`.
 
 ```sh
 flutter pub get
 flutter run
 ```
 
-Kod ve test kontrolleri:
+Run static analysis and tests:
 
 ```sh
 flutter analyze --no-pub
 flutter test --no-pub
 ```
 
-Firebase bağlantısı ve platform gereksinimleri [kurulum belgesinde](docs/FIREBASE_SETUP.md), sürüm kontrol listesi [yayın planında](docs/RELEASE_PLAN.md) açıklanır. Mevcut sürüm geliştirme aşamasındadır.
+See the [setup guide](docs/FIREBASE_SETUP.md) for Firebase configuration and platform requirements, and the [release checklist](docs/RELEASE_PLAN.md) for release preparation. The app is currently in development.
 
-## Destek
+## Support
 
-Sorular ve geri bildirimler için: [emrealidemirel@gmail.com](mailto:emrealidemirel@gmail.com)
+For questions and feedback: [emrealidemirel@gmail.com](mailto:emrealidemirel@gmail.com)
