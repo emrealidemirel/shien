@@ -19,7 +19,7 @@ Shien is a reminder app for Android and iOS that brings daily tasks and recurrin
 
 App screens with sample reminders:
 
-<img src="docs/store/screenshots/ios-tr-today.png" width="250" alt="Shien Today screen"> <img src="docs/store/screenshots/ios-tr-plan.png" width="250" alt="Shien Plan screen"> <img src="docs/store/screenshots/ios-tr-lists.png" width="250" alt="Shien Lists screen">
+<img src="docs/store/screenshots/ios-en-today.png" width="250" alt="Shien Today screen"> <img src="docs/store/screenshots/ios-en-plan.png" width="250" alt="Shien Plan screen"> <img src="docs/store/screenshots/ios-en-lists.png" width="250" alt="Shien Lists screen">
 
 ## Data and privacy
 
