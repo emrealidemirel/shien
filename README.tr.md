@@ -49,4 +49,8 @@ Firebase bağlantısı ve platform gereksinimleri [kurulum belgesinde](docs/FIRE
 
 ## Destek
 
+Geliştirici: [Emre Ali Demirel](https://github.com/emrealidemirel)
+
+Diğer projeler: [Storify](https://github.com/emrealidemirel/storify) · [BugPilot AI](https://github.com/emrealidemirel/bugpilot-ai)
+
 Sorular ve geri bildirimler için: [emrealidemirel@gmail.com](mailto:emrealidemirel@gmail.com)

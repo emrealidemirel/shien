@@ -49,4 +49,8 @@ See the [setup guide](docs/FIREBASE_SETUP.md) for Firebase configuration and pla
 
 ## Support
 
+Developed by [Emre Ali Demirel](https://github.com/emrealidemirel).
+
+Other projects: [Storify](https://github.com/emrealidemirel/storify) · [BugPilot AI](https://github.com/emrealidemirel/bugpilot-ai)
+
 For questions and feedback: [emrealidemirel@gmail.com](mailto:emrealidemirel@gmail.com)
