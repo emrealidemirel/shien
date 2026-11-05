@@ -1,9 +1,9 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/components/reminder_components.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/components/reminder_components.dart';
 
 class ReminderHistoryPage extends StatelessWidget {
   const ReminderHistoryPage({super.key, required this.onError});

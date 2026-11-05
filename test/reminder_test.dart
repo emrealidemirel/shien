@@ -2,14 +2,14 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/models/medicine.dart';
-import 'package:medicine_app/models/medicine_log.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/notifications/reminder_notification_service.dart';
-import 'package:medicine_app/services/reminder_actions.dart';
-import 'package:medicine_app/services/reminder_quick_input.dart';
-import 'package:medicine_app/services/reminder_storage.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/models/medicine.dart';
+import 'package:shien/models/medicine_log.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/notifications/reminder_notification_service.dart';
+import 'package:shien/services/reminder_actions.dart';
+import 'package:shien/services/reminder_quick_input.dart';
+import 'package:shien/services/reminder_storage.dart';
 
 class FakeNotifications implements ReminderNotifications {
   bool fail = false;

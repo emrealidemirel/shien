@@ -1,17 +1,17 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:medicine_app/services/backup/reminder_backup.dart';
-import 'package:medicine_app/services/notifications/reminder_schedule.dart';
+import 'package:shien/services/backup/reminder_backup.dart';
+import 'package:shien/services/notifications/reminder_schedule.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/components/reminder_components.dart';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/components/reminder_components.dart';
+import 'package:shien/models/reminder.dart';
 import 'package:intl/intl.dart';
-import 'package:medicine_app/components/reminder_sound_picker.dart';
-import 'package:medicine_app/services/notifications/reminder_notification_service.dart';
+import 'package:shien/components/reminder_sound_picker.dart';
+import 'package:shien/services/notifications/reminder_notification_service.dart';
 
 class ReminderSettingsPage extends StatefulWidget {
   const ReminderSettingsPage({super.key});

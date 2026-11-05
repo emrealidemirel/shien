@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:medicine_app/l10n/app_localization.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
+import 'package:shien/l10n/app_localization.dart';
+import 'package:shien/services/auth/auth_service.dart';
 
 class ReminderEmailAuthPage extends StatefulWidget {
   const ReminderEmailAuthPage({super.key, required this.auth});

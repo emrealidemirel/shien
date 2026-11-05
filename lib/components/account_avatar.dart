@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_app/services/auth/account_profile_service.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
+import 'package:shien/services/auth/account_profile_service.dart';
+import 'package:shien/services/auth/auth_service.dart';
 
 class AccountAvatar extends StatelessWidget {
   const AccountAvatar({super.key, this.size = 56});

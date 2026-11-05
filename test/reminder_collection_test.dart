@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/reminder_collection.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/reminder_collection.dart';
 
 Reminder item(
   String id,

@@ -1,10 +1,10 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/components/reminder_components.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/models/reminder_template.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/components/reminder_components.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/models/reminder_template.dart';
 
 class ReminderListsPage extends StatelessWidget {
   const ReminderListsPage({

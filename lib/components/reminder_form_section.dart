@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medicine_app/components/reminder_components.dart';
+import 'package:shien/components/reminder_components.dart';
 
 class ReminderFormSection extends StatelessWidget {
   const ReminderFormSection({

@@ -1,16 +1,16 @@
-import 'package:medicine_app/l10n/app_localization.dart';
-import 'package:medicine_app/components/reminder_form_section.dart';
-import 'package:medicine_app/components/reminder_date_time_fields.dart';
+import 'package:shien/l10n/app_localization.dart';
+import 'package:shien/components/reminder_form_section.dart';
+import 'package:shien/components/reminder_date_time_fields.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/components/reminder_components.dart';
-import 'package:medicine_app/components/reminder_sound_picker.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/models/reminder_template.dart';
-import 'package:medicine_app/services/reminder_quick_input.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/components/reminder_components.dart';
+import 'package:shien/components/reminder_sound_picker.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/models/reminder_template.dart';
+import 'package:shien/services/reminder_quick_input.dart';
 import 'package:uuid/uuid.dart';
 
 class ReminderFormPage extends StatefulWidget {

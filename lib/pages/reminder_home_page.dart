@@ -1,26 +1,26 @@
-import 'package:medicine_app/components/account_avatar.dart';
-import 'package:medicine_app/theme/reminder_theme.dart';
-import 'package:medicine_app/l10n/app_localization.dart';
-import 'package:medicine_app/pages/reminder_profile_sheet.dart';
-import 'package:medicine_app/components/reminder_details_sheet.dart';
-import 'package:medicine_app/pages/reminder_history_page.dart';
-import 'package:medicine_app/pages/reminder_collection_page.dart';
+import 'package:shien/components/account_avatar.dart';
+import 'package:shien/theme/reminder_theme.dart';
+import 'package:shien/l10n/app_localization.dart';
+import 'package:shien/pages/reminder_profile_sheet.dart';
+import 'package:shien/components/reminder_details_sheet.dart';
+import 'package:shien/pages/reminder_history_page.dart';
+import 'package:shien/pages/reminder_collection_page.dart';
 import 'package:home_widget/home_widget.dart';
-import 'package:medicine_app/services/reminder_widget_service.dart';
+import 'package:shien/services/reminder_widget_service.dart';
 import 'package:flutter/services.dart';
-import 'package:medicine_app/pages/reminder_plan_page.dart';
-import 'package:medicine_app/pages/reminder_lists_page.dart';
-import 'package:medicine_app/models/reminder_template.dart';
+import 'package:shien/pages/reminder_plan_page.dart';
+import 'package:shien/pages/reminder_lists_page.dart';
+import 'package:shien/models/reminder_template.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/components/reminder_components.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/pages/reminder_form_page.dart';
-import 'package:medicine_app/pages/reminder_settings_page.dart';
-import 'package:medicine_app/services/notifications/reminder_notification_service.dart';
-import 'package:medicine_app/pages/reminder_today_page.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/components/reminder_components.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/pages/reminder_form_page.dart';
+import 'package:shien/pages/reminder_settings_page.dart';
+import 'package:shien/services/notifications/reminder_notification_service.dart';
+import 'package:shien/pages/reminder_today_page.dart';
 
 enum _HomeSection { today, plan, lists, completed, collection }
 

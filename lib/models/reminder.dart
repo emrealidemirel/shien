@@ -1,4 +1,4 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 
 enum ReminderRepeat {
   once('repeat_once'),

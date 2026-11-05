@@ -4,13 +4,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
-import 'package:medicine_app/services/reminder_actions.dart';
-import 'package:medicine_app/services/reminder_storage.dart';
-import 'package:medicine_app/services/sync/cloud_reminder_store.dart';
-import 'package:medicine_app/services/sync/cloud_reminder_sync.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/auth/auth_service.dart';
+import 'package:shien/services/reminder_actions.dart';
+import 'package:shien/services/reminder_storage.dart';
+import 'package:shien/services/sync/cloud_reminder_store.dart';
+import 'package:shien/services/sync/cloud_reminder_sync.dart';
 import 'reminder_test.dart' show reminder, FakeNotifications;
 
 class SessionUser implements User {

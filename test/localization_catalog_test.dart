@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/l10n/codegen_loader.g.dart';
-import 'package:medicine_app/services/reminder_quick_input.dart';
+import 'package:shien/l10n/codegen_loader.g.dart';
+import 'package:shien/services/reminder_quick_input.dart';
 
 void main() {
   test(

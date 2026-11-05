@@ -1,15 +1,15 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'dart:convert';
 import 'dart:ui';
 import 'package:flutter/widgets.dart';
-import 'package:medicine_app/services/reminder_actions.dart';
-import 'package:medicine_app/services/notifications/reminder_schedule.dart';
+import 'package:shien/services/reminder_actions.dart';
+import 'package:shien/services/notifications/reminder_schedule.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest.dart' as tzdata;
 import 'package:timezone/timezone.dart' as tz;
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/models/reminder.dart';
 
 abstract class ReminderNotifications {
   bool get supported;

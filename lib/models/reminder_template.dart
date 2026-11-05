@@ -1,5 +1,5 @@
-import 'package:medicine_app/l10n/app_localization.dart';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/l10n/app_localization.dart';
+import 'package:shien/models/reminder.dart';
 
 class ReminderTemplate {
   const ReminderTemplate(

@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/foundation.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
+import 'package:shien/services/auth/auth_service.dart';
 
 class StubCredential implements UserCredential {
   @override

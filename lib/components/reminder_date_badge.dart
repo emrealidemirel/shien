@@ -1,4 +1,4 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 

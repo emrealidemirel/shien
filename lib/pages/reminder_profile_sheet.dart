@@ -1,14 +1,14 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/components/account_avatar.dart';
-import 'package:medicine_app/services/auth/account_profile_service.dart';
-import 'package:medicine_app/services/sync/cloud_reminder_sync.dart';
-import 'package:medicine_app/pages/account_profile_edit_page.dart';
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/components/account_avatar.dart';
+import 'package:shien/services/auth/account_profile_service.dart';
+import 'package:shien/services/sync/cloud_reminder_sync.dart';
+import 'package:shien/pages/account_profile_edit_page.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:medicine_app/components/reminder_components.dart';
-import 'package:medicine_app/pages/reminder_email_auth_page.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
+import 'package:shien/components/reminder_components.dart';
+import 'package:shien/pages/reminder_email_auth_page.dart';
+import 'package:shien/services/auth/auth_service.dart';
 
 class ReminderProfileSheet extends StatefulWidget {
   const ReminderProfileSheet({

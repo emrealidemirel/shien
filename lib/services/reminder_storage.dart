@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:uuid/uuid.dart';
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:hive/hive.dart';
-import 'package:medicine_app/models/medicine.dart';
-import 'package:medicine_app/models/medicine_log.dart';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/models/medicine.dart';
+import 'package:shien/models/medicine_log.dart';
+import 'package:shien/models/reminder.dart';
 
 class ReminderStorage {
   ReminderStorage(this.box, {this.accountId});

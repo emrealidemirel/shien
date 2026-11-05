@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:path_provider/path_provider.dart';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/models/reminder.dart';
 import 'package:uuid/uuid.dart';
 
 class ReminderAction {

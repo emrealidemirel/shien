@@ -1,7 +1,7 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'dart:convert';
 import 'dart:typed_data';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/models/reminder.dart';
 
 class ReminderBackup {
   const ReminderBackup(this.reminders, this.completions);

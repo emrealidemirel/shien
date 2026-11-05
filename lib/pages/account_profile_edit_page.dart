@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:medicine_app/components/account_avatar.dart';
-import 'package:medicine_app/l10n/app_localization.dart';
-import 'package:medicine_app/services/auth/account_profile_service.dart';
+import 'package:shien/components/account_avatar.dart';
+import 'package:shien/l10n/app_localization.dart';
+import 'package:shien/services/auth/account_profile_service.dart';
 
 class AccountProfileEditPage extends StatefulWidget {
   const AccountProfileEditPage({super.key, required this.profile});

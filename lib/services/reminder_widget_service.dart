@@ -1,12 +1,12 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'dart:convert';
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:home_widget/home_widget.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/notifications/reminder_notification_service.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/notifications/reminder_notification_service.dart';
 
 class ReminderWidgetService {
   String accountScope = 'guest';

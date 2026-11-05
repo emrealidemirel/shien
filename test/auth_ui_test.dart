@@ -3,10 +3,10 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/l10n/codegen_loader.g.dart';
-import 'package:medicine_app/pages/reminder_email_auth_page.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
-import 'package:medicine_app/theme/reminder_theme.dart';
+import 'package:shien/l10n/codegen_loader.g.dart';
+import 'package:shien/pages/reminder_email_auth_page.dart';
+import 'package:shien/services/auth/auth_service.dart';
+import 'package:shien/theme/reminder_theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class UiAuth extends AuthService {

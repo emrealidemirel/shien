@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:medicine_app/firebase_options.dart';
+import 'package:shien/firebase_options.dart';
 
 /// Authentication remains separate from reminder storage and profile rendering.
 class AuthService extends ChangeNotifier {

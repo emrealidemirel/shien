@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/notifications/reminder_schedule.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/notifications/reminder_schedule.dart';
 
 void main() {
   final now = DateTime(2026, 10, 27, 8);

@@ -1,8 +1,8 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:medicine_app/theme/reminder_theme.dart';
+import 'package:shien/theme/reminder_theme.dart';
 import 'package:intl/intl.dart';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/models/reminder.dart';
 
 extension ReminderCategoryStyle on ReminderCategory {
   IconData get icon => switch (this) {

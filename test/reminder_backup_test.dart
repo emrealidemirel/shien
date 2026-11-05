@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/backup/reminder_backup.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/backup/reminder_backup.dart';
 
 void main() {
   final at = DateTime(2026, 10, 26, 20);

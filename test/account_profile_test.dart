@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/services/auth/account_profile_service.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
+import 'package:shien/services/auth/account_profile_service.dart';
+import 'package:shien/services/auth/auth_service.dart';
 
 class ProfileUser implements User {
   ProfileUser({

@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/foundation.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
-import 'package:medicine_app/services/sync/cloud_reminder_store.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/services/auth/auth_service.dart';
+import 'package:shien/services/sync/cloud_reminder_store.dart';
 
 /// Coordinates account changes, durable local edits and live remote snapshots.
 /// No snapshot or write completion from a former session may affect a new one.

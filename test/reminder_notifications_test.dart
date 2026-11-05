@@ -1,11 +1,11 @@
 import 'dart:convert';
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/notifications/reminder_notification_service.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/notifications/reminder_notification_service.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
-import 'package:medicine_app/services/auth/auth_service.dart';
+import 'package:shien/services/auth/auth_service.dart';
 
 class AccountProfileService extends ChangeNotifier {
   AccountProfileService({required this.auth, required this.firestore});

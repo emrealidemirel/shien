@@ -1,6 +1,6 @@
-import 'package:medicine_app/l10n/app_localization.dart';
+import 'package:shien/l10n/app_localization.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:medicine_app/models/reminder.dart';
+import 'package:shien/models/reminder.dart';
 
 class ReminderNotificationPlan {
   const ReminderNotificationPlan(

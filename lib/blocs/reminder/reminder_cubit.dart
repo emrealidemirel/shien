@@ -1,12 +1,12 @@
-import 'package:medicine_app/l10n/app_localization.dart';
-import 'package:medicine_app/services/reminder_widget_service.dart';
-import 'package:medicine_app/services/reminder_actions.dart';
+import 'package:shien/l10n/app_localization.dart';
+import 'package:shien/services/reminder_widget_service.dart';
+import 'package:shien/services/reminder_actions.dart';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/reminder_storage.dart';
-import 'package:medicine_app/services/notifications/reminder_notification_service.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/reminder_storage.dart';
+import 'package:shien/services/notifications/reminder_notification_service.dart';
 
 part 'reminder_state.dart';
 

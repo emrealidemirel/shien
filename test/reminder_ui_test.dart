@@ -9,14 +9,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive/hive.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:medicine_app/blocs/reminder/reminder_cubit.dart';
-import 'package:medicine_app/main.dart';
-import 'package:medicine_app/pages/reminder_form_page.dart';
-import 'package:medicine_app/components/reminder_components.dart';
-import 'package:medicine_app/theme/reminder_theme.dart';
-import 'package:medicine_app/services/reminder_collection.dart';
-import 'package:medicine_app/models/reminder.dart';
-import 'package:medicine_app/services/reminder_storage.dart';
+import 'package:shien/blocs/reminder/reminder_cubit.dart';
+import 'package:shien/main.dart';
+import 'package:shien/pages/reminder_form_page.dart';
+import 'package:shien/components/reminder_components.dart';
+import 'package:shien/theme/reminder_theme.dart';
+import 'package:shien/services/reminder_collection.dart';
+import 'package:shien/models/reminder.dart';
+import 'package:shien/services/reminder_storage.dart';
 import 'reminder_test.dart' show FakeNotifications;
 
 void main() {

@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/widgets.dart';
-import 'package:medicine_app/l10n/codegen_loader.g.dart';
+import 'package:shien/l10n/codegen_loader.g.dart';
 
 export 'package:easy_localization/easy_localization.dart'
     show BuildContextEasyLocalizationExtension;
